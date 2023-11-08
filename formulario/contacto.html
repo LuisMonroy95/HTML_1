@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>EJERCICIO HTML</title>
+        <link rel="icon" type="image/jpg" href="/favicon.png"/>
+    </head>
+        
+    <header>
+        
+    </header>
+
+<hr/>
+
+    <body>
+        <form action="http://www.google.com" method="post">
+            <h2>FORMULARIO DE CONTACTO</h2>
+            
+            <label for="motivo">Motivo de contacto</label>
+            <select id="motivo" name="motivo">
+                <option value="enblanco"></option>
+                <option value="consulta">Consulta general</option>
+                <option value="consejo">Consejo</option>
+                <option value="promo">Promoción</option>
+            </select><br><br>
+
+            <fieldset>
+                <legend>Datos de contacto:</legend>
+            <label for="nombre">Nombre:</label><br>
+            <input id="nombre" name="nombre" type="text" size="20" required><br>
+            <label for="apellidos">Apellidos:</label><br>
+            <input id="apellidos" name="apellidos" type="text" size="20" required><br>
+            <label for="email">Email:</label><br>
+            <input id="email" name="email" type="email"><br>
+
+            <p>Rango de edad</p>
+                <input type="radio" id="menor" name="menor" value="-18">
+                <label for="menor">Menor -18</label><br>
+                <input type="radio" id="mayor" name="mayor" value="+18">
+                <label for="mayor">Mayor +18</label><br>
+                <input type="radio" id="jubilado" name="jubilado" value="+65">
+                <label for="jubilado">Jubilado +65</label>
+            
+
+            </fieldset><br>
+
+            <label for="texto">Comentario</label><br>
+            <textarea id="texto" name="texto" maxlength="300" placeholder="Escribe brevemente tu motivo de contacto.(300 caracteres)"></textarea><br><br>
+
+            <label for="check">Marca si no eres un robot...</label><br>
+            <input id="check" name="check" type="checkbox" required><br><br>
+
+            <label for="enviar"></label><br>
+            <input id="enviar" name="enviar" type="submit" value="Enviar"><br><br>
+
+            <label for="borrar"></label><br>
+            <input id="borrar" name="borrar" type="reset" value="Borrar"><br>
+        
+        </form>
+    </body>
+
+<br><br><br>    
+<hr/>
+
+    <aside>
+        <h2>DONDE ESTAMOS</h2>
+            <li>Dirección del centro; <a href='https://maps.app.goo.gl/AkzMizHF1mTd51tEA'>Ubicación</a></li>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.9503745619825!2d-0.8652562766550954!3d41.64388606300869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd591456e9cf4daf%3A0xad2146ac86b49bc9!2sIES%20Pablo%20Serrano!5e1!3m2!1ses!2ses!4v1699376611413!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+        <p>- <a target=”_self” href='../index.html'>Página de inició</a>.</p>
+    </aside>
+<hr/>
+    <footer>
+        <p>Pagina creada por Monroy95 2023</p>
+    </footer>
+</html>
